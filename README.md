@@ -1,6 +1,8 @@
 # telegram-llm-bot
 Telegram bot that lets you interact with ChatGPT with additional context and some implemented agents. 
 
+![Demo](./video/llm-demo.gif)
+
 ## Prerequisites
 - Linux computer or WSL (tested on Ubuntu 22.04)
 - Tested on Python 3.8.10
