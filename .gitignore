@@ -1,0 +1,10 @@
+.venv
+*.ogg
+*.pdf
+**/__pycache__/*
+vectorstore/*
+client_secret*
+**/scans/*.png
+**/scans/*.jpg
+**.docx
+SECURITY.md
