@@ -6,8 +6,8 @@ Telegram bot that lets you interact with ChatGPT with additional context and som
 ## Prerequisites
 - Linux computer or WSL (tested on Ubuntu 22.04)
 - Tested on Python 3.8.10
-- Create an OpenAI account and get an API key (see https://beta.openai.com/docs/guides/authentication for reference)
-- Create a Telegram bot using BotFather (see https://platform.openai.com/docs/quickstart for reference)
+- Create an OpenAI account and get an API key (see https://platform.openai.com/docs/quickstart for reference)
+- Create a Telegram bot using BotFather (see https://core.telegram.org/bots/tutorial for reference)
 - Enter your secrets and tokens as environment variables (e.g. in an `.env` file or directly in the terminal)
     ```bash
     export OPENAI_API_KEY=<your OpenAI API key>
@@ -36,6 +36,8 @@ To access the agents you need to use write a command (delimeted by "/" e.g. `/as
 
 For more details regarding the software design and how to add new agents see [DETAILS.md](DETAILS.md).
 
+## Known Issues
+- No user management: If several users use the bot at the same time, the context is shared between them. 
 
 ## Notes
 Before ChatGPT announced multimodal features, this project was pretty cool and newish. Many functions are now also implemented in ChatGPT. However, the project is still a good starting point to learn how to interact with the OpenAI API and how to build a Telegram bot.
