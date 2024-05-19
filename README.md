@@ -5,7 +5,7 @@ Telegram bot that lets you interact with ChatGPT with additional context and som
 
 ## Prerequisites
 - Linux computer or WSL (tested on Ubuntu 22.04)
-- Tested on Python 3.8.10
+- Tested on Python 3.10
 - Create an OpenAI account and get an API key (see https://platform.openai.com/docs/quickstart for reference)
 - Create a Telegram bot using BotFather (see https://core.telegram.org/bots/tutorial for reference)
 - Enter your secrets and tokens as environment variables (e.g. in an `.env` file or directly in the terminal)
